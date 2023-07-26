@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <style>
+
+        body { 
+            background-color: aquamarine;
+
+        }
+
+        .formstyle {
+            background-color: bisque;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            max-width: 70%;
+
+            margin: auto;
+            padding: 2dvh;
+        }
+
+        #idstyle {
+            color: aqua;
+        }
+        
+        .submitbuttonstyle {
+            background: green;
+            color: white;
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+    </style> -->
+  </head>
+  <body>
+    <h1>This is my Survey Form!</h1>
+
+
+    
+
+    <form class="formstyle">
+        <fieldset>
+            <label for="name">Name: </label>
+            <input type="text" name="name" />
+            <br />
+            <label for="name">Email: </label>
+            <input type="text" name="name" />
+            <br />
+      
+            <div>
+              <label for="name">Age: </label>
+              <input type="text" name="name" />
+      
+              <br />
+              <label for="name">Phone Numer: </label>
+              <input type="number" name="name" />
+        </fieldset>
+      
+      </div>
+
+      <div>
+        <fieldset>
+          <label>Please select an option:</label>
+          <select>
+            <option selected disabled>Select an option</option>
+            <option>First Option</option>
+            <option>Second Option</option>
+
+            <option>Third Option</option>
+
+            <option>Last Option</option>
+          </select>
+        </fieldset>
+      </div>
+
+      <div>
+        <fieldset>
+          <h2>Pease check all the boxes relevant:</h2>
+          <label><input type="checkbox" name="game" />First Option</label>
+          <br />
+          <label><input type="checkbox" name="game" />Second Option</label>
+          <br />
+          <label><input type="checkbox" name="game" />Third Option</label>
+        </fieldset>
+      </div>
+
+      <div>
+        <fieldset>
+          <h2>Pease select one option:</h2>
+          <label><input type="radio" name="game" />First Option</label>
+          <br />
+          <label><input type="radio" name="game" />Second Option</label>
+          <br />
+          <label><input type="radio" name="game" />Third Option</label>
+        </fieldset>
+      </div>
+
+      <div>
+        <fieldset>
+            <!-- <textarea cols="40" rows="20">Please provide your comments</textarea> -->
+            <textarea style="height: 100px;width: 200px;">Please provide your comments</textarea>
+
+        </fieldset>
+      </div>
+
+      <div>
+        Pick a date: <input type="date" name="date" value="" />
+      </div>
+
+      <div>
+        <!-- styling for button inline styling-->
+        <input class="submitbuttonstyle" type="submit" onclick="alert('Hello')" value="submit" />
+      </div>
+
+      <!-- Add more inputs for Surname -->
+    </form>
+  </body>
+</html>
